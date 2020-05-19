@@ -62,16 +62,10 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="services.html">Service</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
                                         <li><a href="#">Pages</a>
                                             <ul class="submenu">
                                                 <li><a href="rooms.html">Rooms</a>
-                                                <li><a href="elements.html">Element</a></li>
+                                                <li><a href="elements.html">Gallery</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">Contact</a></li>
@@ -104,8 +98,16 @@
                     <div class="row ">
                         <div class="col-md-11 offset-xl-1 offset-lg-1 offset-md-1">
                             <div class="hero-caption">
-                                <span>About</span>
                                 <h2>About</h2>
+                                <hr width="50%">
+                                <p style="color: white; font-style: italic;">An enterprise of Select Group with interests in core Hospitality, Travel and Retail, amongst others, Select Hotels owns
+                                and operates two chic urban resorts in the country offering superlative experiences and one boutique hotel located in a
+                                quaint neighbourhood of New Delhi offering superior experiences for corporate meetings and social gatherings. Select
+                                Hotels is dedicated to guest service, attention to detail and an uncompromising commitment to quality. Over the years,
+                                the Select Hotels brand has built a reputation for excellence in accommodation, food & beverage and service. The high
+                                standards of quality – from the architecture to interiors, landscaping to facilities offered, impeccable service to
+                                delicious cuisines – are as discerning as guests have come to expect from it. Both resorts under the Select Hotels brand
+                                continuously strive for excellence to set new standards in the quality of their services and facilities.</p>
                             </div>
                         </div>
                     </div>
@@ -114,35 +116,51 @@
         </div>
         <!-- slider Area End-->
 
-        <!-- Make customer Start-->
-        <section class="make-customer-area customar-padding fix">
-            <div class="container-fluid p-0">
-                <div class="row">
-                   <div class="col-xl-5 col-lg-6">
-                        <div class="customer-img mb-120">
-                            <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
-                            <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
-                            <div class="service-experience heartbeat">
-                                <h3>25 Years of Service<br>Experience</h3>
-                            </div>
+    <!-- Make customer Start-->
+    <section class="make-customer-area customar-padding fix">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="customer-img mb-120">
+                        <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
+                        <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
+                        <div class="service-experience heartbeat">
+                            <h3>25 Years of Service<br>Experience</h3>
                         </div>
-                   </div>
-                    <div class=" col-xl-4 col-lg-4">
-                        <div class="customer-caption">
-                            <span>About our company</span>
-                            <h2>Make the customer the hero of your story</h2>
-                            <div class="caption-details">
-                                <p class="pera-dtails">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor inc. </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-                                <a href="#" class="btn more-btn1">Learn More <i class="ti-angle-right"></i> </a>
-                            </div>
+                    </div>
+                </div>
+                <div class=" col-xl-4 col-lg-4">
+                    <div class="customer-caption">
+                        <span>About our Hotel</span>
+                        <h2>Make the customer the hero of your story</h2>
+                        <div class="caption-details">
+                            <p class="pera-dtails">We are living in a real paradise of Earth. </p>
+                            <p>An enterprise of Select Group with interests in core Hospitality, Travel and Retail, amongst
+                                others, Select Hotels owns
+                                and operates two chic urban resorts in the country offering superlative experiences and one
+                                boutique hotel located in a
+                                quaint neighbourhood of New Delhi offering superior experiences for corporate meetings and
+                                social gatherings.<span id="dots" style="color: gray; display: none;">Select
+                                    Hotels is dedicated to guest service, attention to detail and an uncompromising
+                                    commitment to quality. Over the years,
+                                    the Select Hotels brand has built a reputation for excellence in accommodation, food &
+                                    beverage and service. The high
+                                    standards of quality – from the architecture to interiors, landscaping to facilities
+                                    offered, impeccable service to
+                                    delicious cuisines – are as discerning as guests have come to expect from it. Both
+                                    resorts under the Select Hotels brand
+                                    continuously strive for excellence to set new standards in the quality of their services
+                                    and facilities.</span>
+                                <span id="more" style="display: none;"></span> </p>
+                            <a style="color: white;" class="btn more-btn1" onclick="readMore()">Read More <i
+                                    class="ti-angle-right"></i> </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Make customer End-->
-
+        </div>
+    </section>
+    <!-- Make customer End-->
 
         <!-- Gallery img Start-->
         <div class="gallery-area g-padding fix">
@@ -167,7 +185,7 @@
         <!-- Gallery img End-->
 
         <!-- Dining Start -->
-        <div class="dining-area d-padding">
+        <div class="dining-area dining-padding-top">
             <!-- Single Left img -->
             <div class="single-dining-area left-img">
                 <div class="container">
@@ -176,13 +194,25 @@
                             <div class="dining-caption">
                                 <span>Our resturent</span>
                                 <h3>Dining & Drinks</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                                <p>Enjoy a drink in our spacious lounge bar, is a truly enjoyable experience – the views of the
+                                    natural harbour, no ships
+                                    just a variety of birds and may be even spot a stray seal or penguin and then across the
+                                    water with the opposite side
+                                    comprising of natural terrain, with the names of ships picked out by natural stones will
+                                    help to ensure that you will
+                                    have a “relaxing drink”
+        
+                                    There is a full range of bar drinks including a wide selection of spirits, Whisky, Brandy
+                                    and Liqueurs, soft drinks and
+                                    beer including and Falkland Islands only real ale. The wine list includes a variety and
+                                    styles of wine including the
+                                    famous Montes premium wine produced in Chile, with wines by the bottle and glass.</p>
                                 <a href="#" class="btn border-btn">Learn More <i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <!-- single Right img -->
             <div class="single-dining-area right-img">
                 <div class="container">
@@ -191,20 +221,30 @@
                             <div class="dining-caption text-right">
                                 <span>Our Pool</span>
                                 <h3>Swimming Pool</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
-                                <a href="#" class="btn border-btn">Learn More  <i class="ti-angle-right"></i></a>
+                                <p>The swimming pool at The Grand New Delhi in the midst of spectacular surroundings is ideal
+                                    for relaxation, de-stress and a fitness regime. With an exclusive pool bar, comfortable
+                                    lounging area with sundecks and an attached baby pool for the little ones.
+        
+                                    The Grand New Delhi a swimming pool hotel is one of the best luxury hotels in Vasant Kunj
+                                    New Delhi offering rejuvenating experience with our swimming pool, a pool-side bar and
+                                    rapturous ambience. Dive into tranquillity and a blissful staying experience at our 5-star
+                                    luxury hotel near Delhi Airport.
+        
+                                    Summer timing: 7.00 am to 8.30 pm
+                                    Winter timing: 9.00 am to 6.00 pm.</p>
+                                <a href="#" class="btn border-btn">Learn More <i class="ti-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
         <!-- Dining End -->
 
         <!-- Testimonial Start -->
-        <div class="testimonial-area t-padding">
+        <div class="testimonial-area testimonial-padding">
             <div class="container">
-               <div class="row justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-xl-9 col-lg-9 col-md-9">
                         <div class="h1-testimonial-active">
                             <!-- Single Testimonial -->
@@ -212,13 +252,19 @@
                                 <!-- Testimonial tittle -->
                                 <div class="font-back-tittle mb-105">
                                     <div class="archivment-front">
-                                        <img src="assets/img/logo/testimonial.png" alt="">
+                                        <img src="https://bcsmn.edu/wp-content/uploads/2020/02/Enthoven-Profile-Circle.jpg"
+                                            height="100px" width="100px" alt="">
                                     </div>
                                     <h3 class="archivment-back">Testimonial</h3>
                                 </div>
-                                 <!-- Testimonial Content -->
+                                <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                                    <p>"We stayed at Hotel Arthur on our trip to Helsinki and it was great. Location was perfect
+                                        for walking to everything!
+                                        Staff was helpful and breakfast was great. Room was perfect for my daughter and myself.
+                                        The only thing was our room
+                                        faced the main road and the traffic was noisy all night. Would definite stay here
+                                        again!"
                                     </p>
                                     <!-- Rattion -->
                                     <div class="testimonial-ratting">
@@ -229,7 +275,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
+                                        <span>Sweety Yadav, <span>Trip Advisor</span> </span>
                                     </div>
                                 </div>
                             </div>
@@ -244,24 +290,26 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                                    <p>"The hotel located in the city center and lots of public transport, nearby restaurants,
+                                        bars etc. The hotel staff are
+                                        nice and friendly. Breakfast not bad. The room a bit small but the bed is really
+                                        comfortable."
                                     </p>
-                                    <!-- Rattion -->
                                     <div class="testimonial-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
                                     </div>
                                     <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
+                                        <span>Subash Mallick, <span>Regular Client</span> </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-               </div>
+                </div>
             </div>
         </div>
         <!-- Testimonial End -->
