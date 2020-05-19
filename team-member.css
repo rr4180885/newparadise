@@ -12,8 +12,7 @@
   900,
   900italic
 );
-
-body {
+.group {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;
   color: #323232;
