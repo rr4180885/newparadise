@@ -22,6 +22,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
 }
+.group i {
+  font-size: 40px;
+}
 .heading-title {
   margin-bottom: 100px;
 }
